@@ -5,7 +5,7 @@
 #include <android/log.h>
 
 #ifndef LOG_TAG
-#define LOG_TAG    "MiPushZygisk"
+#define LOG_TAG    "OnePlusZygisk"
 #endif
 
 #ifdef DEBUG
