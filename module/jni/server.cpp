@@ -8,7 +8,7 @@
 
 using namespace std;
 
-static constexpr auto CONFIG_PATH = "/data/adb/modules/OOS_NFC_Localization/config";
+static constexpr auto CONFIG_PATH = "/data/misc/OneplusLocalization/app.conf";
 
 off_t sendFile(int remote_fd, const string &path) {
     auto in_fd = open(path.c_str(), O_RDONLY);
