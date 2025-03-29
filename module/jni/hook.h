@@ -1,5 +1,5 @@
-#ifndef MIPUSHZYGISK_HOOK_H
-#define MIPUSHZYGISK_HOOK_H
+#ifndef ONEPLUSZYGISK_HOOK_H
+#define ONEPLUSZYGISK_HOOK_H
 
 
 #include <jni.h>
@@ -22,4 +22,4 @@ private:
     JNIEnv *env;
 };
 
-#endif //MIPUSHZYGISK_HOOK_H
+#endif //ONEPLUSZYGISK_HOOK_H
