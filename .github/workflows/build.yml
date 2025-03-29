@@ -22,7 +22,7 @@ jobs:
       with:
         ndk-version: r25b
         add-to-path: true
-        local-cache: true
+        local-cache: false
         
     - name: Build
       run: ./build.sh
