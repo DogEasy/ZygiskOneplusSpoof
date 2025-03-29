@@ -19,5 +19,5 @@ name=`grep '^id=' module.prop | cut -d= -f2`
 rm -rf ../build
 mkdir -p ../build
 
-zip -r9 ../build/mipush-zygisk-$version.zip .
+zip -r9 ../build/oneplusSpoofer-zygisk-$version.zip .
 popd
